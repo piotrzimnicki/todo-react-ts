@@ -1,0 +1,40 @@
+.single-todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #000;
+    margin: 5px 0;
+}
+
+.single-todo p {
+    margin: 0;
+    padding: 5px;
+    min-width: 100px;
+    text-align: center;
+}
+.single-todo button {
+    margin: 0 5px;
+}
+
+.single-todo.completed p {
+    text-decoration: line-through;
+    color: #585858;
+}
+
+.single-todo .todo-controls {
+    display: flex;
+    align-items: center;
+}
+.single-todo .todo-controls input[type="checkbox"] {
+    width: 28px;
+    height: 28px;
+}
+.single-todo .todo-controls button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}

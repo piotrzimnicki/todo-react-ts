@@ -1,0 +1,37 @@
+.form-wrapper {
+    padding: 20px;
+    border: 2px solid #000;
+}
+.form-wrapper form {
+    display: flex;
+}
+.form-wrapper form input {
+    padding: 10px;
+    font-size: 20px;
+}
+.form-wrapper form button {
+    padding: 0 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s color, .3s background-color, .3s border;
+}
+.form-wrapper form button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+.form-wrapper form select {
+    text-align: center;
+    margin-left: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
